@@ -1,1 +1,1 @@
-A page about the inventor of HTML, Tim Berners-Lee.
+A page about the inventor of WWW & HTML, Tim Berners-Lee.
