@@ -30,10 +30,14 @@ article h2 {
 nav {
     margin: auto;
     padding: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     background-color: whitesmoke;
     text-align: center;
     width: 33%;
     height: auto;
+    align-items: center;
+    justify-content: space-around;
 }
 article p {
     padding-bottom: 33%;
@@ -65,12 +69,42 @@ button {
     padding-top: 10px;
     border-radius: 10%;
     border-color: whitesmoke;
+    width: 250px;
+    font-size: 100%;
 }
 button a {
     text-decoration: none;
     background-color: rgb(201, 66, 66);
     color: white;
 }
+button a:hover {
+    text-decoration: underline;
+    font-weight: 750;
+    font-style: italic;
+}
 article p {
     background-color: whitesmoke;
+    margin-left: 225px;
+    text-align: justify;
+}
+nav a:hover {
+    text-decoration: underline;
+    font-weight: 750;
+    font-style: italic;
+}
+article img {
+    float: left;
+    width: 33%;
+}
+header {
+    padding-bottom: 25px;
+}
+nav i  {
+    font-size: 50px;
+    color: rgb(182, 182, 182);
+    padding-bottom: 15px;
+}
+nav a {
+    color: rgb(182, 182, 182);
+    text-decoration: none;
 }
