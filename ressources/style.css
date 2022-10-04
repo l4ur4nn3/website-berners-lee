@@ -4,7 +4,19 @@
     background-color: rgb(223, 219, 219);
     color: rgb(87, 76, 76);
 }
-header, nav, article, h2, figure, figcaption {
+header, article, h2, figure, figcaption {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: whitesmoke;
+    padding-bottom: 25px;
+    text-align: center;
+    width: 33%;
+}
+nav {
     margin-top: 25px;
     margin-bottom: 25px;
     margin-left: auto;
@@ -24,9 +36,14 @@ article p {
 }
 ul {
     list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
+
 li {
     display: inline-table;
+    justify-content: space-around;
 }
 header h1, header h2, header p, header a, header b, nav, a, ul, li, i {
     background-color: whitesmoke;
