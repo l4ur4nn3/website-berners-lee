@@ -1,12 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 * {
     font-family: 'Open Sans', sans-serif;
+    background-color: rgb(199, 199, 199);
 }
-body {
+body, nav, header {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+header, nav {
+    text-align: center;
+    margin-bottom: 10px;
 }
 header {
-    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 250px;
+    background-color: whitesmoke;
+    padding-bottom: 25px;
+}
+header h1, header h2, header p, header a, header b {
+    background-color: whitesmoke;
 }
