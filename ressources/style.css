@@ -4,37 +4,25 @@
     background-color: rgb(223, 219, 219);
     color: rgb(87, 76, 76);
 }
-body, nav, header {
-    width: 50%;
+header, nav, article, h2, figure, figcaption {
+    margin-top: 25px;
+    margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 25px;
     padding-right: 25px;
-}
-header, nav {
-    text-align: center;
-    margin-bottom: 10px;
-}
-header {
-    margin-top: 25px;
-    margin-bottom: 25px;
     background-color: whitesmoke;
     padding-bottom: 25px;
+    text-align: center;
+    width: 50%;
 }
-nav {
-    background-color: whitesmoke;
-    display: flex;
+ul {
+    list-style: none;
 }
-nav ul, li {
-    list-style: none ;
-    display: flex;
+li {
+    display: inline-table;
 }
-nav a, nav i {
-    text-decoration: none;
-    background-color: whitesmoke;
-    display: flex;
-}
-header h1, header h2, header p, header a, header b {
+header h1, header h2, header p, header a, header b, nav, a, ul, li, i {
     background-color: whitesmoke;
 }
 .round-corners {
@@ -54,8 +42,5 @@ button {
 button a {
     text-decoration: none;
     background-color: rgb(201, 66, 66);
-    color: rgb(223, 219, 219);
-}
-a:hover {
-    font-style: italic;
+    color: white;
 }
