@@ -4,32 +4,36 @@
     background-color: rgb(223, 219, 219);
     color: rgb(87, 76, 76);
 }
-header, article, h2, figure, figcaption {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: auto;
-    margin-right: auto;
+header, article {
+    margin: auto;
     padding-left: 25px;
     padding-right: 25px;
     background-color: whitesmoke;
-    padding-bottom: 25px;
+    padding-bottom: 0px;
     text-align: center;
     width: 33%;
+}
+h2 {
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    justify-content: center;
+}
+h3 {
+    background-color: whitesmoke;
+}
+article h2 {
+    padding-top:10px ;
 }
 nav {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 25px;
-    padding-right: 25px;
+    margin: auto;
+    padding: 25px;
     background-color: whitesmoke;
-    padding-bottom: 25px;
     text-align: center;
     width: 33%;
-}
-article img {
-    float: left;
+    height: auto;
 }
 article p {
     padding-bottom: 33%;
@@ -39,10 +43,10 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-inline-start: 0px;
 }
 
 li {
-    display: inline-table;
     justify-content: space-around;
 }
 header h1, header h2, header p, header a, header b, nav, a, ul, li, i {
@@ -66,9 +70,6 @@ button a {
     text-decoration: none;
     background-color: rgb(201, 66, 66);
     color: white;
-}
-article i {
-    font-size: ;
 }
 article p {
     background-color: whitesmoke;
